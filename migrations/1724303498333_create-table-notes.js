@@ -22,6 +22,10 @@ exports.up = (pgm) => {
       type: 'TEXT',
       notNull: true,
     },
+    tags: {
+      type: 'TEXT[]',
+      notNull: true,
+    },
     created_at: {
       type: 'TEXT',
       notNull: true,
